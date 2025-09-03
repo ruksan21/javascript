@@ -13,4 +13,15 @@ let employee  = {
 };
 for  (let key in employee){
     console.log(key, ":", employee[key]);
+
 }
+// for of loop
+let colors = ['red', 'green', 'blue', 'yellow'];
+for (let color of colors) {
+    console.log("Color:", color);
+}   
+
+// irerating over a string 
+
+
+
