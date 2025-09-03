@@ -1,5 +1,11 @@
-function show(name){
-console.log(`Welcome to ${name}`)
+// function show(name){
+// console.log(`Welcome to ${name}`)
+// }
+// show("Ruksan");
+// show("John");
+
+function add ( num1 , num2){
+    let sum = num1 + num2 
+    return sum;
 }
-show("Ruksan");
-show("John");
+console.log(add(5, 10));
