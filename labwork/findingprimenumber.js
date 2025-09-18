@@ -25,7 +25,7 @@ for (let num = 2; num <= 100; num++) {
         }
     }
     if (count == 1) {
-        console.log(num);
+        console.log( "The prime number is: " , num);
     }
 }
 
